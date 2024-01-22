@@ -8,7 +8,7 @@ const NavBar = () => {
             <div className="brand">
                 <h2>Qr Genrator</h2>
             </div>
-            <ul>
+            <ul className='navList'>
                 <li><Link>Home</Link></li>
                 <li><Link>About</Link></li>
                 <li><Link>Contact</Link></li>

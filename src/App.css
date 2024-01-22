@@ -19,7 +19,7 @@
   width: 100%;
   display: flex;
 }
-.navbar nav ul{
+.navList{
   width: 80%;
   display: flex;
   justify-content: space-evenly;
@@ -79,4 +79,26 @@
   border: 1px solid black;
   outline: none;
   margin: 28px 0;
+}
+@media (max-width:600px){
+  .navbar{
+    width: 100%;
+    display: flex;
+    padding: 8% 2%;
+    margin-bottom: 16%;
+    box-shadow: 1px 1px 10px 4px;
+    border-radius: 8px;
+    height: 110px;
+  }
+  .brand{
+    width: 40%;
+  }
+  .navList{
+    display: none;
+    width: 100%;
+  }
+  .home{
+    width: 80%;
+    margin: 8% auto;
+  }
 }
